@@ -75,6 +75,31 @@
           "name": "RouteMainView",
           "pattern": "RouteMainView",
           "target": ["TargetMainView"]
+        },
+        {
+          "name": "Tiles",
+          "pattern": "",
+          "target": ["Tiles"]
+        },
+        {
+          "name": "first",
+          "pattern": "first",
+          "target": ["Countdown"]
+        },
+        {
+          "name": "second",
+          "pattern": "second",
+          "target": ["Covid"]
+        },
+        {
+          "name": "second-list",
+          "pattern": "second-list",
+          "target": ["Covid-List"]
+        },
+        {
+          "name": "second-pie",
+          "pattern": "second-pie",
+          "target": ["Covid-Pie"]
         }
       ],
       "targets": {
@@ -83,7 +108,38 @@
           "viewLevel": 1,
           "viewId": "idAppControl",
           "viewName": "MainView"
+        },
+        "Tiles": {
+          "viewType": "XML",
+          "viewId": "Tiles",
+          "viewName": "Tiles",
+          "ControlId":"idAppControl"
+        },
+        "Countdown": {
+          "viewType": "XML",
+          "viewId": "countdown.Countdown",
+          "viewName": "countdown.Countdown",
+          "ControlId":"idAppControl"
+        },
+        "Covid": {
+          "viewType": "XML",
+          "viewId": "covid.Covid",
+          "viewName": "covid.Covid",
+          "ControlId":"idAppControl"
+        },
+        "Covid-List": {
+          "viewType": "XML",
+          "viewId": "covid.List",
+          "viewName": "covid.List",
+          "ControlId":"idAppControl"
+        },
+        "Covid-Pie": {
+          "viewType": "XML",
+          "viewId": "covid.Pie",
+          "viewName": "covid.Pie",
+          "ControlId":"idAppControl"
         }
+        
       }
     }
   }
